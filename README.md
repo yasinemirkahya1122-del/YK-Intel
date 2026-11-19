@@ -20,17 +20,17 @@
 
 ## 💡 YK-Intel Nedir?
 
-**YK-Intel**, kamuya açık kaynaklardan bilgi toplayan ve bunu düzenli bir rapor haline getiren **Flask** tabanlı yerel bir araştırma arayüzüdür[cite: 1]. Öncelikli olarak **Gemini**'nin yerleşik Google Arama yeteneğini kullanır; erişim veya kota durumlarında **DuckDuckGo (`ddgs`)** yedek hattına geçer[cite: 1].
+**YK-Intel**, kamuya açık kaynaklardan bilgi toplayan ve bunu düzenli bir rapor haline getiren **Flask** tabanlı yerel bir araştırma arayüzüdür. Öncelikli olarak **Gemini**'nin yerleşik Google Arama yeteneğini kullanır; erişim veya kota durumlarında **DuckDuckGo (`ddgs`)** yedek hattına geçer.
 
 ---
 
 ## ✨ Öne Çıkan Özellikler
 
-- 🌐 **Gemini Google Search Grounding:** Güncel web sonuçlarını doğrudan arayarak kaynak bağlantılarıyla birlikte özetleme[cite: 1].
-- 🔄 **Otomatik Yedek Arama (`ddgs` Fallback):** Gemini araması başarısız olursa DuckDuckGo (`tr-tr`, `wt-wt`, `us-en`) üzerinden sonuç toplayıp özetleme veya ham veri sunma[cite: 1].
-- 🛡️ **Hassas Veri Koruması:** Sistem kuralları gereği T.C. kimlik numarası, açık ev adresi veya sızdırılmış özel verileri rapora dahil etmeme[cite: 1].
-- ⚡ **Tek Dosya (`YK-Intel.py`) Mimarisi:** Ekstra karmaşık klasör yapısı olmadan doğrudan çalıştırılabilir yapı[cite: 1].
-- 🎨 **Karanlık Tema Web Arayüzü:** Tailwind CSS, `marked.js` ve `DOMPurify` (XSS koruması) destekli sade yerel arayüz[cite: 1].
+- 🌐 **Gemini Google Search Grounding:** Güncel web sonuçlarını doğrudan arayarak kaynak bağlantılarıyla birlikte özetleme.
+- 🔄 **Otomatik Yedek Arama (`ddgs` Fallback):** Gemini araması başarısız olursa DuckDuckGo (`tr-tr`, `wt-wt`, `us-en`) üzerinden sonuç toplayıp özetleme veya ham veri sunma.
+- 🛡️ **Hassas Veri Koruması:** Sistem kuralları gereği T.C. kimlik numarası, açık ev adresi veya sızdırılmış özel verileri rapora dahil etmeme.
+- ⚡ **Tek Dosya (`YK-Intel.py`) Mimarisi:** Ekstra karmaşık klasör yapısı olmadan doğrudan çalıştırılabilir yapı.
+- 🎨 **Karanlık Tema Web Arayüzü:** Tailwind CSS, `marked.js` ve `DOMPurify` (XSS koruması) destekli sade yerel arayüz.
 
 ---
 
@@ -46,16 +46,7 @@
 ### 3. Aracı Başlatın
     python YK-Intel.py
 
-> **Not:** Uygulama açıldığında `[http://127.0.0.1:5000](http://127.0.0.1:5000)` adresi otomatik olarak başlatılır[cite: 1]. Arayüz üzerinden veya `GEMINI_API_KEY` ortam değişkeniyle kendi Gemini API anahtarını girmen gerekir[cite: 1].
-
----
-
-## ⚙️ Ortam Değişkenleri ve Model Ayarı
-
-API anahtarını ve kullanılacak Gemini modellerini ortam değişkeni olarak tanımlayabilirsin[cite: 1]:
-
-    export GEMINI_API_KEY="AIzaSy..."
-    export GEMINI_MODELS="gemini-2.5-flash,gemini-2.5-flash-lite"
+> **Not:** Uygulama açıldığında `[http://127.0.0.1:5000](http://127.0.0.1:5000)` adresi otomatik olarak başlatılır. Arayüz üzerinden kendi Gemini API anahtarını girmen gerekir.
 
 ---
 
