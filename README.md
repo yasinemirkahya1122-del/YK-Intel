@@ -35,7 +35,7 @@
 ## 🛠️ Kurulum ve Çalıştırma
 
 ### 1. Repoyu Klonlayın
-    git clone [https://github.com/yasinemirkahya1122-del/YK-Intel.git](https://github.com/yasinemirkahya1122-del/YK-Intel.git)
+    git clone [https://github.com/yasinemirkahya1122-del/YK-Intel.git]
     cd YK-Intel
 
 ### 2. Bağımlılıkları Yükleyin
