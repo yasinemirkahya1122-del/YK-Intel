@@ -1,0 +1,76 @@
+<div align="center">
+
+# YK-Intel
+### AI-Powered OSINT & Open-Source Web Intelligence Tool
+
+<p align="center">
+  <img src="[https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)" alt="Python">
+  <img src="[https://img.shields.io/badge/Flask-Web_UI-000000?style=for-the-badge&logo=flask&logoColor=white](https://img.shields.io/badge/Flask-Web_UI-000000?style=for-the-badge&logo=flask&logoColor=white)" alt="Flask">
+  <img src="[https://img.shields.io/badge/Gemini_AI-Search_Grounding-4285F4?style=for-the-badge&logo=google&logoColor=white](https://img.shields.io/badge/Gemini_AI-Search_Grounding-4285F4?style=for-the-badge&logo=google&logoColor=white)" alt="Gemini AI">
+  <img src="[https://img.shields.io/badge/License-MIT-FFD700.svg?style=for-the-badge](https://img.shields.io/badge/License-MIT-FFD700.svg?style=for-the-badge)" alt="MIT License">
+</p>
+
+<p align="center">
+  <b>İnternette açık kaynak araştırması yapan, sonuçları doğrulayıp kaynaklarıyla özetleyen ve yedek arama motoru desteği sunan tek dosyalık OSINT aracı.</b>
+</p>
+
+</div>
+
+---
+
+## 💡 YK-Intel Nedir?
+
+**YK-Intel**, kamuya açık kaynaklardan bilgi toplayan ve bunu düzenli bir rapor haline getiren **Flask** tabanlı yerel bir araştırma arayüzüdür[cite: 1]. Öncelikli olarak **Gemini**'nin yerleşik Google Arama yeteneğini kullanır; erişim veya kota durumlarında **DuckDuckGo (`ddgs`)** yedek hattına geçer[cite: 1].
+
+---
+
+## ✨ Öne Çıkan Özellikler
+
+- 🌐 **Gemini Google Search Grounding:** Güncel web sonuçlarını doğrudan arayarak kaynak bağlantılarıyla birlikte özetleme[cite: 1].
+- 🔄 **Otomatik Yedek Arama (`ddgs` Fallback):** Gemini araması başarısız olursa DuckDuckGo (`tr-tr`, `wt-wt`, `us-en`) üzerinden sonuç toplayıp özetleme veya ham veri sunma[cite: 1].
+- 🛡️ **Hassas Veri Koruması:** Sistem kuralları gereği T.C. kimlik numarası, açık ev adresi veya sızdırılmış özel verileri rapora dahil etmeme[cite: 1].
+- ⚡ **Tek Dosya (`YK-Intel.py`) Mimarisi:** Ekstra karmaşık klasör yapısı olmadan doğrudan çalıştırılabilir yapı[cite: 1].
+- 🎨 **Karanlık Tema Web Arayüzü:** Tailwind CSS, `marked.js` ve `DOMPurify` (XSS koruması) destekli sade yerel arayüz[cite: 1].
+
+---
+
+## 🛠️ Kurulum ve Çalıştırma
+
+### 1. Repoyu Klonlayın
+    git clone [https://github.com/yasinemirkahya1122-del/YK-Intel.git](https://github.com/yasinemirkahya1122-del/YK-Intel.git)
+    cd YK-Intel
+
+### 2. Bağımlılıkları Yükleyin
+    pip install flask google-genai ddgs
+
+### 3. Aracı Başlatın
+    python YK-Intel.py
+
+> **Not:** Uygulama açıldığında `[http://127.0.0.1:5000](http://127.0.0.1:5000)` adresi otomatik olarak başlatılır[cite: 1]. Arayüz üzerinden veya `GEMINI_API_KEY` ortam değişkeniyle kendi Gemini API anahtarını girmen gerekir[cite: 1].
+
+---
+
+## ⚙️ Ortam Değişkenleri ve Model Ayarı
+
+API anahtarını ve kullanılacak Gemini modellerini ortam değişkeni olarak tanımlayabilirsin[cite: 1]:
+
+    export GEMINI_API_KEY="AIzaSy..."
+    export GEMINI_MODELS="gemini-2.5-flash,gemini-2.5-flash-lite"
+
+---
+
+## ⚠️ Sorumluluk Reddi (Disclaimer)
+
+Bu yazılım yalnızca **eğitim, araştırma, siber güvenlik farkındalığı ve kamuya açık verilerle yapılan yasal OSINT çalışmaları** amacıyla sunulmaktadır.
+
+Aracın kullanımından, üçüncü taraf servislerin (Google, DuckDuckGo vb.) sunduğu verilerin doğruluğundan/eksikliğinden veya kullanıcıların bu aracı **hukuka aykırı, izinsiz, taciz, ifşa veya zarar verici** amaçlarla kullanmasından doğabilecek hiçbir doğrudan veya dolaylı zarardan, veri kaybından ya da hukuki/cezai sorumluluktan **yazılım geliştiricisi sorumlu tutulamaz**. Tüm sorumluluk tamamen aracı çalıştıran kişiye aittir.
+
+---
+
+## 📜 Lisans
+
+Bu proje **MIT Lisansı** ile lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına göz atabilirsin.
+
+<div align="center">
+  <sub>Developed with ❤️ by <b>Yasin Emir KAHYA</b></sub>
+</div>
