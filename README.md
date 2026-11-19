@@ -4,10 +4,10 @@
 ### AI-Powered OSINT & Open-Source Web Intelligence Tool
 
 <p align="center">
-  <img src="[https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)" alt="Python">
-  <img src="[https://img.shields.io/badge/Flask-Web_UI-000000?style=for-the-badge&logo=flask&logoColor=white](https://img.shields.io/badge/Flask-Web_UI-000000?style=for-the-badge&logo=flask&logoColor=white)" alt="Flask">
-  <img src="[https://img.shields.io/badge/Gemini_AI-Search_Grounding-4285F4?style=for-the-badge&logo=google&logoColor=white](https://img.shields.io/badge/Gemini_AI-Search_Grounding-4285F4?style=for-the-badge&logo=google&logoColor=white)" alt="Gemini AI">
-  <img src="[https://img.shields.io/badge/License-MIT-FFD700.svg?style=for-the-badge](https://img.shields.io/badge/License-MIT-FFD700.svg?style=for-the-badge)" alt="MIT License">
+  [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-Web_UI-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
+[![Gemini AI](https://img.shields.io/badge/Gemini_AI-Google-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-FFD700?style=for-the-badge)](LICENSE)
 </p>
 
 <p align="center">
