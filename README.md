@@ -3,12 +3,10 @@
 # YK-Intel
 ### AI-Powered OSINT & Open-Source Web Intelligence Tool
 
-<p align="center">
-  [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-Web_UI-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
 [![Gemini AI](https://img.shields.io/badge/Gemini_AI-Google-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-FFD700?style=for-the-badge)](LICENSE)
-</p>
 
 <p align="center">
   <b>İnternette açık kaynak araştırması yapan, sonuçları doğrulayıp kaynaklarıyla özetleyen ve yedek arama motoru desteği sunan tek dosyalık OSINT aracı.</b>
